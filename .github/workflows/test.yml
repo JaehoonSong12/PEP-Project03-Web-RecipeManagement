@@ -23,4 +23,4 @@ jobs:
         cache: maven
         
     - name: Build and test with Maven
-      run: mvn -B test -Dtest="com.ydjs.**" --file pom.xml
+      run: mvn -B test -Dtest="com.revature.**" --file pom.xml
